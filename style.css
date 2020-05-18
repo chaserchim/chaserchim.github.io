@@ -69,6 +69,7 @@ body.fade-out {
 a {
     text-decoration: none;
     color: inherit;
+    margin: 10px;
 }
 
 .box {
@@ -91,4 +92,10 @@ header {
     background-image: url(http://free.pagepeeker.com/v2/thumbs.php?size=x&url=http%3A%2F%2Freiplanning.com%2Findex.html);
     background-size: cover;
     background-position: center;
+    color: white;
+}
+
+#movieapi {
+    background-color: black;
+    color: white;
 }

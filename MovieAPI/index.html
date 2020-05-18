@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wilburn - JavaScript Final</title>
+</head>
+<body>
+
+<div id="searchbar">
+    <p>Search for your favorite movie!</p>
+    <input type="text" name="search" id="searchinput" placeholder="Shrek">
+    <button id="searchbutton" onclick="StartSearch()">Search</button>
+</div>
+
+<div id="results">
+    <div id="text">
+        <p>Title: <span id="title"></span></p>
+
+        <p>Description: <span id="desc"></span></p>
+    
+        <p>Vote Average: <span id="vote"></span>/10</p>
+    
+        <p>Database ID: <span id="id"></span></p>
+    
+        <p>Language: <span id="lang"></span></p>
+    
+        <p>Release Date: <span id="date"></span></p>
+    </div>
+
+    <div id="images">
+        <img src="" id="poster" alt="Movie Poster">
+    </div>
+
+</div>
+
+<p id="error">No Results Found</p>
+
+    <script type="text/javascript" src="Wilburn_JSFinal.js"></script>
+</body>
+</html>
