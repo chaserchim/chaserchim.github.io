@@ -3,23 +3,74 @@ html{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
+    background-color: black;
+    overflow: hidden;
 }
 
-#top{
-    width: 100%;
-}
 
 #first{
     float:left;
-    width: 50%;
+    width: 45vw;
+    vertical-align: bottom;
 }
 
 #buttons{
     float:right;
-    width: 50%;
+    width: 45vw;
+    margin: auto;
+    font-size: 4em;
+    text-align: center;
+    padding: 1%;
 }
 
 #last{
-    width: 100%;
+    width: 95vw;
+    float:left;
+    vertical-align: top;
 }
 
+
+h1{
+    font-size: 18em;
+    padding: 5%;
+    margin: auto;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+}
+
+a:hover{
+    color: gray;
+}
+
+p{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#aboutme{
+    font-size: 10em;
+}
+
+#aboutmetext{
+    text-align: center;
+
+}
+
+
+body{
+    animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
